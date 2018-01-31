@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<link type="text/css" rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+	<div class="outerborder">
+		<!-- your favorite animal's name goes here -->
+		<h3>Gray Wolf</h3>
+		<!-- your favorite animal's image goes here -->
+		<img src="https://inhabitat.com/wp-content/blogs.dir/1/files/2015/01/grey_wolf1.jpg" alt="Picture of a Gray Wolf">
+		<div class="innerborder">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p class="italize">Dispersing wolves move about 60 miles on average, but can travel more than 500 miles.</p>
+			<ul>
+				<!-- your favorite animal's list items go here -->
+				<li><span>Scientific Name</span>: Canis lupus</li>
+				<li><span>Average Mass</span>: 66 – 180 lbs (Adult)</li>
+				<li><span>Average Lifespan</span>: 5 – 6 years (in the wild)</li>
+				<li><span>Habitat</span>: Deserts, grasslands, forests and arctic tundras.</li>
+			</ul>
+			<!-- your favorite animal's description goes here -->
+			<p>The gray wolf is one of the world's best-known and most-researched animals, with probably more books written about it than any other wildlife species. It has a long history of association with humans, having been despised and hunted in most pastoral communities because of its attacks on livestock, while conversely being respected in some agrarian and hunter-gatherer societies</p>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+<!--Stylesheet 
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+	font-size: 10pt;
+	background-color: gray;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+	
+}
+
+.outerborder {
+		box-sizing: border-box;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 25px;
+		width:320px;
+		padding: 0px 10px 0px 10px;
+		box-shadow: 10px 10px 30px -1px rgba(219,219,219,0.7);;
+		background-color: white;
+		position: relative;
+		margin: auto;
+		
+		
+}
+
+.innerborder{	
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 25px;
+		padding: 1em;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+}
+
+
+ul {
+	list-style: none;
+	text-align: left;
+	padding-left: 0;
+}
+
+span {
+	font-weight: bold;
+}
+
+.italize {
+	font-style: italic;
+}
+
+img {
+	width: 300px;
+	height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 25px;
+	
+}
+
+-->
